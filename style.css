@@ -102,6 +102,13 @@ button {
     font-size: x-large;
 }
 
+.contesto2{
+    height: 300px;
+    flex-basis: 60%;
+    font-size: x-large;
+    padding-left: 100px
+}
+
 .foto1{
     height: 300px;
     flex-basis: 40%;    
@@ -113,6 +120,11 @@ button {
 
 #stars{
     background-image: url(img/stars.svg);
+    padding: 13px;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: x-large;
+    background-size: contain;
 }
 
 .sezione3{
@@ -123,6 +135,7 @@ button {
     background-color: rgb(211, 211, 211);
     flex-direction: column;
     text-align: center;
+    font-size: x-large;
 }
 
 .fine{
