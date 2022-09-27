@@ -32,6 +32,7 @@ header{
     border: none;
     padding-inline: 15px;
     border-radius: 1em;
+    color: black;
 }
 
 p{
@@ -44,7 +45,7 @@ p{
     background-position: center;
 }
 
-#backgmain{
+.backgmain{
     background-color: rgb(211, 211, 211);
 }
 
@@ -65,17 +66,22 @@ p{
     color: white;
 }
 
-.intro .introbutton{
+button {
     border: none;
     padding-inline: 15px;
     border-radius: 1em;
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    color: white;
 }
 
-.intro .introbutton{
-color: white;
-background-color: rgb(35, 39, 42);
+.tipo1 {
+    background-color:rgb(35, 39, 42);
+}
+
+.tipo2 {
+    background-color: white;
+    color: black;
 }
 
 .container {
@@ -90,22 +96,34 @@ background-color: rgb(35, 39, 42);
 }
 
 
-.contesto2{
-    background-color: rgb(255, 192, 203);
+.contesto1{
     height: 300px;
     flex-basis: 60%;
+    font-size: x-large;
+}
+
+.foto1{
+    height: 300px;
+    flex-basis: 40%;    
 }
 
 .foto2{
-    background-color: rgb(30, 144, 255);
-    height: 300px;
-    flex-basis: 40%;    
+    height: 500px;    
+}
+
+#stars{
+    background-image: url(img/stars.svg);
 }
 
 .sezione3{
     background-color: rgb(211, 211, 211);
 }
 
+.sezione4{
+    background-color: rgb(211, 211, 211);
+    flex-direction: column;
+    text-align: center;
+}
 
 .fine{
     background-color: rgb(211, 211, 211);
@@ -122,7 +140,7 @@ background-color: rgb(35, 39, 42);
     background-color: rgb(34, 139, 34);
 }
 
-.sezione4 {
+.sezione5 {
     background-color: rgb(35, 39, 42);
 }
 
