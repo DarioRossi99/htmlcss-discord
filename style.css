@@ -84,6 +84,12 @@ button {
     color: black;
 }
 
+
+.tipo3 {
+    background-color: rgb(142, 161, 225);
+    color: rgb(255, 255, 255);
+}
+
 .container {
     margin: 0 auto;
     padding: 40px;
@@ -162,9 +168,9 @@ button {
 }
 
 .contatti{
-    color: rgb(114, 137, 218);
     height: 300px;
     flex-basis: 30%
+    color  white;
 }
 
 #itaflag{
@@ -205,4 +211,8 @@ button {
     border: 1px solid;
     background-color: pink;
     margin: 5px;
+}
+
+.contatti h2{
+    color: rgb(114, 137, 218);
 }
