@@ -161,6 +161,7 @@ button {
 
 .sezione5 {
     background-color: rgb(35, 39, 42);
+    padding-bottom: 7em;
 }
 
 #bgcontactfoot{
@@ -179,10 +180,10 @@ button {
 }
 
 .lista{
-    background-color: rgb(32, 178, 170);
-    border: 1px solid white;
     height: 300px;
     flex-basis: 20%;
+    padding-left: 3em;
+    font-size: medium;
 }
 
 .finenav{
@@ -192,18 +193,16 @@ button {
     padding: 20px;
     background-color: rgb(35, 39, 42);
     display: flow-root;
-    
+    border-top: 1px solid cornflowerblue;  
 }
 
 .barrafinenav{
     display: flex;
-    background-color: rgb(113, 221, 185);
     justify-content: space-between;
 }
 
 .bgfooter{
     background-color: rgb(35, 39, 42);
-    border-top: 1px solid white;
 }
 
 .cornice{
@@ -215,4 +214,24 @@ button {
 
 .contatti h2{
     color: rgb(114, 137, 218);
+}
+
+.itatesto{
+    color: white;
+}
+
+.barrafinenav button{
+    border: none;
+    padding-inline: 15px;
+    border-radius: 1em;
+    background-color: rgb(142, 161, 225);
+    color: white;
+}
+
+.lista h4{
+    color: rgb(142, 161, 225);
+}
+
+.lista span{
+color: white;
 }
